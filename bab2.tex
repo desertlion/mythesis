@@ -1,35 +1,48 @@
-%!TEX root = ./template-skripsi.tex
+%!TEX root = ./thesis-main.tex
 %-------------------------------------------------------------------------------
 %                            BAB II
-%               TINJAUAN PUSTAKA DAN DASAR TEORI
+%                      TINJAUAN PUSTAKA 
 %-------------------------------------------------------------------------------
 
-\chapter{TINJAUAN PUSTAKA DAN DASAR TEORI}                
+\chapter{TINJAUAN PUSTAKA}                
 
-\section{Tinjauan Pustaka}
-  Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philospher Cicero. Its words and letters have been changed by addition or removal, so to deliberately render its content nonsensical; it's not genuine, correct, or comprehensible Latin anymore. While lorem ipsum's still resembles classical Latin, it actually has no meaning whatsoever. As Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original. \cite{DaSilvaCampos2011}
+Beberapa penelitian telah dilakukan di bidang pencarian informasi menggunakan Semantic Web. Diantaranya Yunita (2011) membuat sebuah penelitian mengenai sistem perencanaan perjalanan wisata di Sumatera Selatan berbasis Semantic Web. Dalam penelitian tersebut dibentuk model Ontologi Paket Perjalanan Wisata di Sumatera Selatan. Model ontologi tersebut juga memuat representasi relasi antar objek wisata seperti aspek kewilayahan, status kewilayahan suatu kota, dan sebagainya. Untuk mengendalikan konsistensi data dan relasi antar objek dalam model ontologi dibentuklah aturan-aturan yang direpresentasikan dalam bentuk SWRL. Sistem akan memberikan rekomendasi perencanaan perjalanan wisata berdasarkan \emph{input} dari pengguna. Rekomendasi diberikan oleh sistem menggunakan rule yang telah diatur pada SWRL.
 
-\section{Landasan Teori}
-  \subsection{\LaTeX}
-    Ne per tota mollis suscipit. Ullum labitur vim ut, ea dicit eleifend dissentias sit. Duis praesent expetenda ne sed. Sit et labitur albucius elaboraret. Ceteros efficiantur mei ad. Hendrerit vulputate democritum est at, quem veniam ne has, mea te malis ignota volumus.
+\cite{5507372} juga melakukan penelitian berbasis Web Semantik dalam domain kepariwisataan. Mereka mencoba untuk membantu pengguna mendapatkan informasi cara terbaik untuk pindah dari satu tempat ke tempat lain di suatu kota dengan memberikan rekomendasi jalur dengan beragam moda transportasi tergantung dengan input yang diberikan oleh pengguna. Ontologi transportasi publik dibangun untuk mendukung perencanaan perjalanan pengguna. Senada dengan penelitian Yunita (2011) terdapat juga aturan-aturan \emph{SWRL} yang dibuat untuk memberikan hasil yang relevan sesuai input dari pengguna.
 
-    Eros reprimique vim no. Alii legendos volutpat in sed, sit enim nemore labores no. No odio decore causae has. Vim te falli libris neglegentur, eam in tempor delectus dignissim, nam hinc dictas an.
+Penelitian lain dilakukan oleh Sergio Consoli, et al (2015) dimana mereka membuat sebuah penelitian berjudul \emph{"A Smart City Data Model based on Semantics Best Practice and Principles"}. Pada penelitian tersebut terdapat ontologi sistem transportasi pada kota Catania. Hasil dari penelitian tersebut juga memberikan \emph{REST API} yang dapat di manfaatkan oleh pihak terkait untuk membangun sistem menggunakan ontologi \emph{smart city} yang mereka bangun. Kelemahan dari sistem ini adalah input yang dibutuhkan berupa query \emph{SPARQL} yang sulit dipahami oleh pengguna seperti wisatawan pada umumnya.
 
-    Pro omnium incorrupte ea. Elitr eirmod ei qui, ex partem causae disputationi nec. Amet dicant no vis, eum modo omnes quaeque ad, antiopam evertitur reprehendunt pro ut. Nulla inermis est ne. Choro insolens mel ne, eos labitur nusquam eu, nec deserunt reformidans ut. His etiam copiosae principes te, sit brute atqui definiebas id.
+Admojo (2015) juga mengembangkan sistem berbasis Web Semantik untuk melakukan pencarian informasi pada domain pendakian gunung. Pada penelitian tersebut \emph{NLP} digunakan sebagai input. Terdapat juga fitur pengecekan kesalahan ejaan pada input (\emph{spelling checker}). Sistem yang dihasilkan dapat menyajikan informasi jalur pendakian gunung dengan penyajian informasi berupa peta interaktif. Sistem mampu melakukan pencarian dengan input berupa kata, frasa, klausa atau kalimat, mampu memahami kalimat dengan kaidah tata bahasa indonesia dan mendeteksi kalimat yang tidak sesuai dengan kaidah tata bahasa indonesia dan menggunakan \emph{thesaurus} kata dalam pencarian. Perbedaan dengan penelitian yang diusulkan terdapat pada domain permasalahan serta tingkat penting nya tata bahasa pada input.
 
+Booth (2015) mengembangkan bahasa \emph{query} transportasi untuk perencanaan perjalanan yang disebut dengan \emph{TRANQUYL}. Untuk memudahkan user, mereka juga membangun \emph{NL2TRANQUYL} dimana sistem ini menerjemahkan \emph{request} dari user dalam bentuk bahasa Inggris ke format yang dimengerti oleh \emph{TRANQUYL}. Perbedaannya terdapat pada bahasa yang digunakan, penelitian ini akan menggunakan bahasa Indonesia, serta ontologi yang dihasilkan tidak hanya menampilkan rute perjalanan tetapi juga event kegiatan serta fasilitas publik di Kota Palembang. Perbandingan antar penelitian ditunjukkan pada Tabel \ref{tab:perbandingan}.\\
 
-      \begin{figure}[H]
-        \centering
-          \includegraphics{gambar/wsn}
-          \caption{Jaringan sensor nirkabel.}
-          \label{wsn}
-      \end{figure}
-
-
-  \subsection{Sublime Text}
-    Et affert civibus has. Has ne facer accumsan argumentum, apeirian hendrerit persequeris pro ex. Suscipit vivendum sensibus mea at, vim ei hinc numquam, at dicit timeam dissentiet mel. At patrioque intellegebat sea, error argumentum dissentias sea in.
-
-    Quo no atqui omnesque intellegat, ne nominavi argumentum quo. Eum ei purto oporteat dissentiet, soleat utamur an sit. Et assum dicam interpretaris quo. Cetero alterum ea vel, no possit alterum utroque nec. His fuisset quaestio ad. Has eu tritani incorrupte consequuntur, esse aliquip nec ne.
+% Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
+\begin{table}[]
+\centering
+\caption{Tinjauan Pustaka.}
+\label{tab:perbandingan}
+\begin{tabular}{| p{1cm} | p{5.5cm} | p{6cm} |}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+\multicolumn{1}{|c}{\cellcolor[HTML]{C0C0C0}\textbf{Author}} & \multicolumn{1}{|c}{\cellcolor[HTML]{C0C0C0}\textbf{Pendekatan}} & \multicolumn{1}{|c}{\cellcolor[HTML]{C0C0C0}\textbf{Hasil}} \\ \hline
+\multicolumn{1}{|p{2cm}|}{Dubey dkk. (2016)} & 
+\multicolumn{1}{p{6cm}|}{Mengubah bahasa Inggris menjadi query yang bisa dimengerti oleh teknologi semantic seperti SPARQL. Menggunakan NQS (Normalized Query Syntax) yang kemudian diterjemahkan menjadi query SPARQL.} & 
+\multicolumn{1}{p{6cm}|}{AskNOW, sebuah framework yang mengubah bahasa Inggris sehari-hari menjadi bentuk syntax yang disebut dengan NQS (Normalized Query Syntax) yang kemudian di terjemahkan menjadi query SPARQL.} \\ 
+\hline
+\multicolumn{1}{|p{2cm}|}{Booth dkk (2015)}                      & \multicolumn{1}{p{6cm}|}{Merancang TRANQUYL. TRANQUYL menerjemahkan bahasa Inggris menjadi query TRANQUYL yang selanjutnya digunakan untuk melakukan query ke SPARQL.} & 
+\multicolumn{1}{p{6cm}|}{TRANQUYL, sebuah bahasa query transportasi untuk perencanaan perjalanan.} \\ 
+\hline
+\multicolumn{1}{|p{2cm}|}{Ferr\'{e} (2014)} & 
+\multicolumn{1}{p{6cm}|}{Menggunakan Bahasa Alami (Natural Language) untuk melakukan query terhadap SPARQL. Menggunakan style Montague untuk grammar.} & 
+\multicolumn{1}{p{6cm}|}{SQUALL, penggabungan syntax bahasa alami dengan bahasa formal yang tidak memiliki makna ambigu. SQUALL membuat pencarian semantic menjadi lebih efektif karena input dari user dipandu oleh sistem. Kelemahannya adalah syntax yang dihasilkan tidak benar-benar merupakan syntax bahasa yang dipakai sehari-hari. Contoh:,"Give me the publication-s whose title contains 'natural language'?"} \\ \hline
+\multicolumn{1}{|p{2cm}|}{Yunita (2013)} & 
+\multicolumn{1}{p{6cm}|}{Perencanaan Perjalanan Wisata menggunakan Semantic Web, dalam hal ini penggunaan SWRL yang menghubungkan antar lokasi objek-objek wisata} & 
+\multicolumn{1}{p{6cm}|}{Sistem yang membantu merencanakan perjalanan pariwista berdasarkan kriteria-kriteria tertentu dengan penyajian informasi ke dalam bentuk peta.} \\ \hline
+\multicolumn{1}{|p{2cm}|}{Admojo (2015)} & 
+\multicolumn{1}{p{6cm}|}{Preprocessing dan pembentukan urutan kata, parsing menggunakan aturan tata bahasa Indonesia dengan analisis struktur luar (surface structure). Ekstraksi informasi semantik menggunakan query SPARQL} & 
+\multicolumn{1}{p{6cm}|}{Ontologi Bahasa, Ontologi Mountaineering, sistem yang dapat menyajikan informasi jalur pendakian gunung dengan penyajian informasi berupa peta interaktif, sistem yang mampu melakukan pencarian dengan input berupa kata, frasa, klausa atau kalimat, mampu memahami kalimat dengan kaidah tata bahasa Indonesia dan mendeteksi kalimat yang tidak sesuai dengan kaidah tata bahasa Indonesia dan menggunakan thesaurus dalam pencarian.} \\ \hline
+\end{tabular}
+\end{table}
 
 % Baris ini digunakan untuk membantu dalam melakukan sitasi
 % Karena diapit dengan comment, maka baris ini akan diabaikan

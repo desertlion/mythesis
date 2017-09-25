@@ -40,7 +40,7 @@ Berikut penjelasan dari file-file utama dalam template ini. File lain yang tidak
 			├── bab5.tex
 			├── daftar-pustaka.bib
 			├── template-skripsi.pdf
-			├── template-skripsi.tex
+			├── thesis-main.tex
 			└── jtetiskripsi.cls
 
 ### bab1.tex - bab5.tex
@@ -51,8 +51,8 @@ File yang berisi daftar referensi-referensi yang anda gunakan dalam skripsi. Fil
 
 File ini adalah hasil export dari aplikasi *reference management* seperti Mendeley, Zotero, EndNote, dll. Biasakan mengorganisir referensi skripsi anda menggunakan aplikasi *reference management*.
 
-### template-skripsi.tex
-File ini template-skripsi.tex adalah file utama (kepala) dari template. Berisi informasi-informasi dasar, seperti judul skripsi, nama penulis, nama pembimbing, dll.
+### thesis-main.tex
+File ini thesis-main.tex adalah file utama (kepala) dari template. Berisi informasi-informasi dasar, seperti judul skripsi, nama penulis, nama pembimbing, dll.
 
 ### template-skripsi.pdf
 File ini adalah skripsi anda dalam bentuk matang. Sudah rapi dan dapat dicetak untuk dijilid. File ini di-*generate* secara otomatis menggunakan LaTeX.

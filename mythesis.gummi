@@ -1,0 +1,10 @@
+version=0.6.0
+typesetter=pdflatex
+steps=texpdf
+root=/media/desertlion/Data/thesis/thesis-main.tex
+
+file=/media/desertlion/Data/thesis/bab1.tex
+file=/media/desertlion/Data/thesis/bab2.tex
+file=/media/desertlion/Data/thesis/bab3.tex
+file=/media/desertlion/Data/thesis/bab4.tex
+file=/media/desertlion/Data/thesis/bab5.tex
